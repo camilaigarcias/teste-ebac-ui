@@ -33,4 +33,16 @@ describe('Funcionalidade Pagina de Produtos', () => {
 
 
     });
+
+    it('Deve adicionar produtos ao carrinho usando comando customizado', () => {
+        cy.addProdutos('Arcadio Gym Short', '33', 'Black', 3)
+        
+    });
+
+    it('Deve adicionar produtos ao carrinho usando comando customizado', () => {
+        cy.addProdutos('Ariel Roll Sleeve Sweatshirt', 'L', 'Green', 5)
+        
+    });
+  
+
 });
